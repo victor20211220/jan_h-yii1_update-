@@ -1,0 +1,22 @@
+<?php
+return array(
+	"Admin Panel" => "Admin Panel",
+	"Please sign in" => "Please sign in",
+	"Menu" => "Menu",
+	"Links" => "Links",
+	"Category" => "Category",
+	"Tools" => "Tools",
+	"System log" => "System log",
+	"Settings" => "Settings",
+    "Clear cache" => "Clear cache",
+    "Generate sitemap" => "Generate sitemap",
+	"Top notification text"=>"Some of features are disabled in demo mode. Click {Here} to view screenshots of admin panel",
+	"here"=>"here",
+    "Category suggestions"=>"Category suggestions",
+    "URL: Regular queue"=>"URL: Regular queue",
+    "URL: Premium queue"=>"URL: Premium queue",
+    "Broken link report"=>"Broken link report",
+    "URL information update request"=>"URL information update request",
+	"Hello, {Username}"=>"Hello, {Username}",
+	"Logout"=>"Logout",
+);

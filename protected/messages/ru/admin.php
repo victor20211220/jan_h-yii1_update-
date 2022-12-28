@@ -1,0 +1,22 @@
+<?php
+return array(
+	"Admin Panel" => "Панель администратора",
+	"Please sign in" => "Пожалуйста авторизуйтесь",
+	"Menu" => "Меню",
+	"Links" => "Линки",
+	"Category" => "Категория",
+	"Tools" => "Инструменты",
+	"System log" => "Системные логи",
+	"Settings" => "Настройки",
+    "Clear cache" => "Очистить кэш приложения",
+    "Generate sitemap" => "Сгенерировать карту сайта",
+	"Top notification text"=>"Некоторые функции недоступны в демо режиме. Нажмите {Here} чтобы посмотреть скриншоты админ панели",
+	"here"=>"сюда",
+    "Category suggestions"=>"Предложения новых категорий",
+    "URL: Regular queue"=>"Ссылки: Регулярная очередь",
+    "URL: Premium queue"=>"Ссылки: Премиум очередь",
+    "Broken link report"=>"Сообщения и неработающих ссылках",
+    "URL information update request"=>"Запросы на обновление информации",
+	"Hello, {Username}"=>"Привет, {Username}",
+	"Logout"=>"Выйти",
+);

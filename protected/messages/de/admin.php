@@ -1,0 +1,22 @@
+<?php
+return array(
+    'Admin Panel' => 'Administration',
+    'Please sign in' => 'Admin Anmeldung',
+    'Menu' => 'Menü',
+    'Links' => 'Links',
+    'Category' => 'Kategorie',
+    'Tools' => 'Werkzeuge',
+    'System log' => 'System logs',
+    'Settings' => 'Einstellungen',
+    'Clear cache' => 'Cache leeren',
+    'Generate sitemap' => 'Sitemap generieren',
+    'Top notification text' => 'Einige der Funktionen wurden im Demonstrationsmodus deaktiviert. Klicken Sie {Here} um Bildausschnitte des administrativen Bereiches zu sehen.',
+    'here' => 'hier',
+    'Category suggestions' => 'Kategorievorschläge',
+    'URL: Regular queue' => 'Reguläre Warteschlange',
+    'URL: Premium queue' => 'Premium Warteschlange',
+    'Broken link report' => 'Meldung toter Links',
+    'URL information update request' => 'Information über URL Update Anfrage',
+    'Hello, {Username}' => 'Hallo, {Username}',
+    'Logout' => 'Abmelden',
+);

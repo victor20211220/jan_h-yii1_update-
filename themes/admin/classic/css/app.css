@@ -1,0 +1,108 @@
+.navbar.top-navbar {
+	border-radius: 0 !important;
+}
+
+.fix-inner-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+input.error,
+select.error,
+textarea.error  {
+  border-color: #b94a48;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  color: #b94a48;
+}
+
+input.error:focus,
+select.error:focus,
+textarea.error:focus {
+  border-color: #953b39;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+	border-bottom: 1px solid #ecf0f1;
+}
+table tr:last-child td {
+	border-bottom:0;
+}
+th.checkbox-column { text-align: center !important; }
+.well-bg {
+	background-color: #ecf0f1;
+}
+.summary { padding-bottom: 10px; }
+#notifications {
+    max-height: 218px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+td input {width:100%}
+
+.abc { width:20%; }
+
+.link-color { color: #18bc9c; }
+.grid-button-inline {margin: 0 0 5px 5px}
+
+tr.danger td .grid-button-inline {color: #fff !important;}
+tr.warning td .grid-button-inline {color: #fff !important;}
+
+td input { padding: 5px;}
+.grid-button {display:block; margin-bottom: 5px; }
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto;
+    /* Negative indent footer by its height */
+    margin: 0 auto -60px;
+    /* Pad bottom by footer height */
+    padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+    height: 60px;
+    background-color: #ecf0f1;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+    width: auto;
+    padding: 0 15px;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.recaptcha_wrapper.error {
+    border: 2px solid #e74c3c;
+    float: left;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    border-radius: 4px;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+.text-break {
+    word-break: break-word;
+    word-wrap: break-word;
+}

@@ -1,0 +1,22 @@
+<?php
+return array(
+	"Admin Panel" => "Administrations panel",
+	"Please sign in" => "Log venligst ind",
+	"Menu" => "Menu",
+	"Links" => "Links",
+	"Category" => "Kategori",
+	"Tools" => "Værktøjer",
+	"System log" => "System log",
+	"Settings" => "Indstillinger",
+    "Clear cache" => "Tøm cache",
+    "Generate sitemap" => "Generere sitemap",
+	"Top notification text"=>"Nogle funktioner er deaktiverat i demo tilstand. Klik {Here} for at se skærmbilleder of administration panelet",
+	"here"=>"her",
+    "Category suggestions"=>"Forslag til kategori",
+    "URL: Regular queue"=>"URL: Normal kø",
+    "URL: Premium queue"=>"URL: Premium kø",
+    "Broken link report"=>"Link fejl rapport",
+    "URL information update request"=>"URL information opdaterings anmodning",
+	"Hello, {Username}"=>"Hej, {Username}",
+	"Logout"=>"Log ud",
+);

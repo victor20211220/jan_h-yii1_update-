@@ -1,0 +1,97 @@
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto;
+    /* Negative indent footer by its height */
+    margin: 0 auto -61px;
+    /* Pad bottom by footer height */
+    padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+    height: 60px;
+    background-color: #ecf0f1;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.mb-21 {
+    margin-bottom: 21px;
+}
+
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.navbar.top-navbar {
+	border-radius: 0 !important;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+	border-bottom: 1px solid #ecf0f1;
+}
+table tr:last-child td {
+	border-bottom:0;
+}
+
+.error.form-control, .error.form-control:focus {
+	border: 2px solid #e74c3c;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+table.index-table {
+    margin-bottom: 0 !important;
+}
+
+table.index-table tr:last-child td {
+    border-bottom: 0 !important;
+}
+table.index-table tr:first-child td {
+    border-top: 0 !important;
+}
+
+.well-bg {
+	background-color: #ecf0f1;
+}
+.fake-input {
+    border: 0 !important;
+    padding-left: 0 !important;
+}
+.fix-padding-left { padding-left: 0 !important; }
+.link-color { color: #18bc9c; }
+ul.pagination { margin-bottom: 0 !important;}
+.backlink {display: none}
+
+.recaptcha_wrapper.error {
+    border: 2px solid #e74c3c;
+    float: left;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    border-radius: 4px;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+.text-break {
+    word-break: break-word;
+    word-wrap: break-word;
+}
+.color-white {
+    color: #fff !important;
+}
+
+@media (max-width: 767px) {
+    .media-body {
+        float: left;
+        margin-top: 10px;
+    }
+}
